@@ -239,11 +239,17 @@ public Map<String, Object> jsonResponse() {
 }
 ```
 
+
+
 ---
+
+
 
 ## 第三部分: Jinja2 模板
 
+
 ### 3.1 基础模板
+
 
 创建 `templates/index.html`:
 ```html
@@ -318,9 +324,14 @@ def hello(name):
 {{ render_comment(comment) }}
 ```
 
+
+
 ### 3.3 模板继承
 
+
 **基础模板** `templates/base.html`:
+
+
 
 
 ```html
@@ -353,6 +364,8 @@ def hello(name):
 ```
 
 **子模板** `templates/home.html`:
+
+
 ```html
 {% extends "base.html" %}
 
@@ -368,9 +381,12 @@ def hello(name):
 {% endblock %}
 ```
 
+
+
 ### 3.4 包含其他模板
 
 `templates/_navbar.html`:
+
 ```html
 <nav class="navbar">
     <ul>
@@ -403,6 +419,7 @@ def hello(name):
       layout:decorate="~{base}">
 ```
 
+
 ---
 
 ## 实战项目: 个人博客首页
@@ -426,10 +443,12 @@ stage1-basics/
 
 ### 代码实现
 
+
 查看完整代码:
 - `app.py` - 主应用
 - `templates/` - 模板文件
 - `static/` - 静态资源
+
 
 ---
 

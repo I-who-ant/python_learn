@@ -4,10 +4,15 @@
 
 WSGI (Web Server Gateway Interface) 是 Python Web 应用程序与 Web 服务器之间的标准接口规范。它定义在 **PEP 3333** 中。
 
+
+
 ### 核心思想
+
 ```
 客户端请求 → Web服务器(Apache/Nginx) → WSGI服务器(mod_wsgi) → WSGI应用(Flask/Django)
 ```
+
+
 
 WSGI 的目的是**解耦 Web 服务器和 Web 应用框架**,让它们可以独立开发和选择。
 

@@ -10,7 +10,8 @@ __pycache__/
 #some don't need
 small-project/
 pythonWeb/helloflask-main/
-pythonWeb/flask-ma
+pythonWeb/flask-main/
+pythonWeb/WSGI理解/mod_wsgi-develop/
 
 # Distribution / packaging
 .Python

@@ -301,6 +301,7 @@ public String showPost(@PathVariable int postId) {
 ## 步骤 6: 理解项目结构
 
 ### 当前目录结构
+
 ```
 stage0-setup/
 ├── venv/              # 虚拟环境 (不提交到 Git)
@@ -513,11 +514,7 @@ flask run --port 8000
 ### HelloFlask 示例
 - `helloflask-main/examples/ch1/app.py` - 最小应用
 - `helloflask-main/demos/hello/app.py` - Hello Flask
-
-### 推荐阅读
-- 《Flask 从入门到进阶》第 1 章
-- Flask 官方教程: https://flask.palletsprojects.com/tutorial/
-
+- 
 ---
 
 **创建时间**: 2025-11-26

@@ -402,6 +402,7 @@ sha256sums # SHA256校验和
 ```
 
 **其他变量**:
+
 ```bash
 optdepends   # 可选依赖
 conflicts    # 冲突包
