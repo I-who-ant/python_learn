@@ -1,0 +1,9 @@
+title:
+  transforms:
+    - match: (.*) \*/
+      replace: $1
+    - match: (.*) \*\}
+      replace: $1
+keywords:
+  - FIXME
+remote: origin

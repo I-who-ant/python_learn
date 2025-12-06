@@ -1,0 +1,13 @@
+language: go
+go:
+  - stable
+install:
+  - go get github.com/tsoding/snitch
+  - go get -v .
+  - go get -u golang.org/x/lint/golint
+script:
+  - diff --line-format=%L <(gofmt -d .) <(echo -n)
+  - go vet -x ./...
+  - golint -set_exit_status ./...
+  - go test -v -cover ./...
+  - go build -v .
