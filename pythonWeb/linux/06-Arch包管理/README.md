@@ -282,6 +282,7 @@ makepkg -c
 **用户配置**: `~/.makepkg.conf`
 
 **常用配置**:
+
 ```bash
 # 编辑 ~/.makepkg.conf
 
