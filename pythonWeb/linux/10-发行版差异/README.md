@@ -81,7 +81,7 @@ sudo pacman -Syu              # Debian: sudo apt update && sudo apt upgrade
 sudo pacman -S package        # Debian: sudo apt install package
 sudo pacman -Rs package       # Debian: sudo apt remove --purge package
 pacman -Ss keyword            # Debian: apt search keyword
-pacman -Ql package            # Debian: dpkg -L package
+pacman -Ql package            # Debian: dpkg -L package 
 ```
 
 **Arch → RedHat/Fedora**:
